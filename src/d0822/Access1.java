@@ -6,6 +6,5 @@ public class Access1 {
 		Access a = new Access();
 		System.out.println(a.i);
 		System.out.println(a.i2);
-		
 	}
 }
