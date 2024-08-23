@@ -15,7 +15,7 @@ class Cat extends Animal{
 class Dog extends Animal{
 	
 }
-class Human implements Action{
+class Human2 implements Action{
 
 	@Override
 	public void eat() {		
@@ -29,7 +29,7 @@ public class InterfaceTest {
 		Action[] actions = new Action[3];
 		actions[0] =new Cat();
 		actions[1] =new Dog();
-		actions[2] =new Human();
+		actions[2] =new Human2();
 		 
 	}
 }
