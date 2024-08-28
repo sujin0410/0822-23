@@ -1,6 +1,6 @@
 package d0822;
 
-class MethodTest{
+class MethodTest {  //변수의 선언 방법 () 다음 {}
 	int i;
 	
 	static void test() {
@@ -12,8 +12,8 @@ class MethodTest{
 	}
 	
 	public static void main(String[] args) {
-		int i = test1() + 1;
+		int i = test1() +1 ;
 		System.out.println(i);
-		test();
+		
 	}
 }
