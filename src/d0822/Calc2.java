@@ -25,4 +25,5 @@ public class Calc2 {
 		result = division(1, 3);
 		System.out.println(result);
 	}
+	
 }
